@@ -21,7 +21,7 @@ import {
   ChevronRight,
   MenuRounded,
   Dashboard,
-} from "@mui/icons-material";
+} from "@mui/icons-material/index";
 import {
   CanAccess,
   ITreeMenu,

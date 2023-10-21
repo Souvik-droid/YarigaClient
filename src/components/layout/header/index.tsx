@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
 
   return shouldRenderHeader ? (
     <AppBar color="default" position="sticky" elevation={0} sx = {{
-      background:'#fcfcf'
+      background:'#fcfcfc'
     }}>
       <Toolbar>
         <Stack
@@ -35,6 +35,7 @@ export const Header: React.FC = () => {
             gap="16px"
             alignItems="center"
             justifyContent="center"
+            color="black"
           >
             {user?.name ? (
               <Typography variant="subtitle2">{user?.name}</Typography>
