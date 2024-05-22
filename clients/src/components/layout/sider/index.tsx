@@ -21,7 +21,7 @@ import {
   ChevronRight,
   MenuRounded,
   Dashboard,
-} from "@mui/icons-material/index";
+} from "@mui/icons-material";
 import {
   CanAccess,
   ITreeMenu,
@@ -193,7 +193,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                 sx={{
                   justifyContent: "center",
                   minWidth: 36,
-                  color: "#808091",
+                  //color: "primary.contrastText",
                 }}
               >
                 {icon ?? <ListOutlined />}
